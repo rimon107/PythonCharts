@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>24f5d3de-c6d3-4749-add4-83f3049eb3be</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>PythonCharts.py</StartupFile>
+    <StartupFile>JointPlotChart.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,49 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="BoxplotWithStripplotChart.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CorrelationChart.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DistPlotChart.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DistributionChart.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ErrorBarPlotChart.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ErrorBarPython.py" />
+    <Compile Include="FacetChart.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="FactorPlotChart.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="HistogramChart.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="JointPlotChart.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="MosaicPlotChart.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PairPlotChart.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ParrarelCoordinatePlotChart.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="PythonCharts.py" />
+    <Compile Include="TSplotChart.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ViolinChartPython.py" />
+    <Compile Include="VoronoyChartPython.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
